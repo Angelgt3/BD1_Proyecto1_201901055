@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="models" id="F70C32ED-863B-ED8D-CA7B-54260A4EB7CD" version="3.5">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:00:14 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F70C32ED-863B-ED8D-CA7B-54260A4EB7CD</designId>
+</OSDM_Design>

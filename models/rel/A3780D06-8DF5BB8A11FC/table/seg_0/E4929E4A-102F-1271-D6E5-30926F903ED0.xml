@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4929E4A-102F-1271-D6E5-30926F903ED0" name="MESA">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>311C7022-0326-8A65-D0E6-2ACC4A986384</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mesa" id="4AEEC47C-6629-FF2B-A331-730F21587B7F">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>01C8B407-4584-8F91-D779-532FA91F5B6F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_id_departamento" id="C3F2494F-5D83-0EB5-D7E9-B6BF6E6CAF4D">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>03375E73-5F5F-00CE-BDA4-81DFFE6BABAB</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6C638FC-F948-D24A-3F64-9BC0BF08CF77" referredColumn="01AC3DB2-5108-A331-CD60-33B2C240371F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C2D9522-A28B-334B-85BD-444D4FC7F5EB" name="MESA_PK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>A19258EC-1724-98EE-E3A7-0E953238336B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AEEC47C-6629-FF2B-A331-730F21587B7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="803BCE3D-7528-4CA9-C243-19201BA59AD9" name="MESA_DEPARTAMENTO_FK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>A65B5422-03FD-A56F-7E88-900928FAC427</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3F2494F-5D83-0EB5-D7E9-B6BF6E6CAF4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

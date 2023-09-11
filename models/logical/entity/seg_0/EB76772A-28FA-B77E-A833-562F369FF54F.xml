@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB76772A-28FA-B77E-A833-562F369FF54F" name="CIUDADANO">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:05:15 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dpi" id="2CBE1610-DF78-A5B9-7C8F-F75087B74387">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:11:07 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7FB02938-E258-C5F1-1F9B-3070F6CE3DFC">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:13:06 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="0BE64652-5AD1-B4A6-270E-322FECB499B2">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:13:54 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="C5B84FC0-B0D2-C52D-0563-23D655AB6A26">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:14:00 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="176F560E-767D-5031-8C59-6CAF62292D9D">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:14:20 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="7FD7A939-F299-5B4B-776C-FD9ED3D3D950">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:14:27 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="E6A08257-F4AD-6F3C-1398-17DDA6DC44BA">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:14:30 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F178C8E-1230-935B-1249-3193144169EF" name="CIUDADANO PK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:12:57 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CBE1610-DF78-A5B9-7C8F-F75087B74387</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

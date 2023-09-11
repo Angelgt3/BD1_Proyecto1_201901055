@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4D1104E-FC38-E2BC-1FC7-CF5AA8568112" name="PARTIDO">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:07:36 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_partiido" id="FA724761-0435-BE0B-AAA9-27E4C6652649">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:36:29 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_partido" id="071C5A5C-F65B-A876-F54E-AC8DDE93A58A">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:36:42 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="siglas" id="40530EA8-0C24-DB87-473F-1F7B85FBD0CF">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:37:43 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fundacion" id="CD772618-9CDA-3F49-0BC8-346CCDD476E6">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:38:16 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F7F52C1-A5D9-0075-4F41-0E104C83B89C" name="PARTIDO PK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:36:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA724761-0435-BE0B-AAA9-27E4C6652649</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

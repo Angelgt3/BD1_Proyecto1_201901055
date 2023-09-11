@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F606188-A73D-89E8-A098-5B31BCB6C62F" name="CIUDADANO">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>EB76772A-28FA-B77E-A833-562F369FF54F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dpi" id="D48BE41D-1405-45B9-5998-B02878493DAB">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>2CBE1610-DF78-A5B9-7C8F-F75087B74387</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DBC3AF1A-EEC5-9E35-7654-7776BB7FDBBA">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>7FB02938-E258-C5F1-1F9B-3070F6CE3DFC</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="EF90A610-54E1-4C5F-6844-795DED32EEFC">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>0BE64652-5AD1-B4A6-270E-322FECB499B2</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="A0B77101-19CD-00A1-1A6C-997B45CDF182">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>C5B84FC0-B0D2-C52D-0563-23D655AB6A26</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="226F9C2F-CC9B-793A-31E1-3EC61D44418E">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>176F560E-767D-5031-8C59-6CAF62292D9D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="5710F8AF-169C-040D-963F-7B5114151348">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>7FD7A939-F299-5B4B-776C-FD9ED3D3D950</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="B90FC398-D0C0-C16A-E5B6-A6AF1E597E00">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>E6A08257-F4AD-6F3C-1398-17DDA6DC44BA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E878604B-9B1E-09AE-D6F4-7393D7DF6734" name="CIUDADANO_PK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>2F178C8E-1230-935B-1249-3193144169EF</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D48BE41D-1405-45B9-5998-B02878493DAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

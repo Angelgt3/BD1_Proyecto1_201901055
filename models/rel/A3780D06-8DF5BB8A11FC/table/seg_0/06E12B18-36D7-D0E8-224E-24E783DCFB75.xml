@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06E12B18-36D7-D0E8-224E-24E783DCFB75" name="VOTO">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>2FCD8082-17F6-88F8-69BB-7F22301D102D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_voto" id="EAE79C45-2453-14D7-18BD-D8E7585AB09D">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>C3DD4246-A438-6BC8-457A-A7F39AB78C40</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora" id="8592DE54-10DD-FAA8-54FB-9146A7A79A6C">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>378D3652-0925-9AA8-C03F-4340BD810FF0</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDADANO_dpi" id="6E8D9694-D4B1-54DB-F4B9-EBCB36ADB390">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>F74A65FB-63A6-6063-9B2A-271FC6C2E856</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90EAF305-6BD3-A90F-3EEE-F552D0211D6A" referredColumn="D48BE41D-1405-45B9-5998-B02878493DAB"/>
+</associations>
+</Column>
+<Column name="MESA_id_mesa" id="B0F90E59-019E-0103-7C44-35B0263EF5D5">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>3F72DDBE-C655-0DA7-6023-4418DCDE75C2</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B5D9D6B-C8C0-449C-16AB-20984840292C" referredColumn="4AEEC47C-6629-FF2B-A331-730F21587B7F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81D3104C-0C8F-E806-8235-8983EC531236" name="VOTO_PK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>5F78B461-7D19-58B4-74A8-4933C704388E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAE79C45-2453-14D7-18BD-D8E7585AB09D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2832480D-A541-58B8-59C5-D2D949E91E1C" name="VOTO_CIUDADANO_FK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>7465506A-3802-CF8A-5F49-CD2AEE3E444E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E8D9694-D4B1-54DB-F4B9-EBCB36ADB390"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B4A8BC0-B42B-7040-39CC-860E948181B6" name="VOTO_MESA_FK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 17:07:14 UTC</createdTime>
+<generatorID>6B1743CD-02A3-9241-9859-FDB565D84B38</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0F90E59-019E-0103-7C44-35B0263EF5D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

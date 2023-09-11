@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01050737-D132-9563-443B-271041BFE532" name="CANDIDATO">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:07:42 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_candidato" id="24A7F188-ED2E-56F6-1828-F1E8DBA2C268">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:41:40 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_candidato" id="36730EAE-E730-7F37-4600-EE5963B190EE">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:41:50 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="4C3B1261-F780-E06D-AE68-13A7E237F843">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:43:07 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cargo" id="D16D0544-FEFA-C4DC-35AE-5FA82EF9BDEF">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:59:02 UTC</createdTime>
+<generatorID>737CF4AE-12B8-FAEA-CD26-F298CE1FAB20</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<referedAttribute>99B86A4C-54DF-CBBA-009A-0E0663DAC149</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partiido" id="8872F478-BB28-9E47-32CC-997B99215483">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:59:12 UTC</createdTime>
+<generatorID>0139821C-175E-7132-DCDC-009CD609B8F8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<referedAttribute>FA724761-0435-BE0B-AAA9-27E4C6652649</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92FC2236-E5AE-6A9B-BE8E-CF583358864A" name="CANDIDATO PK">
+<createdBy>angge</createdBy>
+<createdTime>2023-09-11 16:41:49 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="A3780D06-7E74-BD13-EE9A-8DF5BB8A11FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24A7F188-ED2E-56F6-1828-F1E8DBA2C268</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
