@@ -1,10 +1,11 @@
 const db = require('../db/conexion');
-const {script_crear_modelo} = require('../db/scripts');
+const {script_borrar_modelo} = require('../db/scripts');
 
-exports.crear_modelo = async (req, res) => {
+exports.borrar_modelo = async (req, res) => {
+
     try {
         // Eliminar los comentarios del script SQL
-        const scriptWithoutComments = script_crear_modelo.replace(/(--.*)/g, '');
+        const scriptWithoutComments = script_borrar_modelo.replace(/(--.*)/g, '');
 
         // Ejecutar el script SQL sin comentarios
         const sqlCommands = scriptWithoutComments.split(";").map(command => command.trim());
@@ -18,7 +19,7 @@ exports.crear_modelo = async (req, res) => {
         }
 
         res.status(200).json({
-            body: { res: true, message: 'MODELO CREADO EXITOSAMENTE' },
+            body: { res: true, message: 'MODELO BORRADO EXITOSAMENTE' },
         });
     } catch (error) {
         console.log(error);
