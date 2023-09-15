@@ -110,13 +110,13 @@ exports.cargar_modelo = async (req, res) => {
         for (let i = 1; i < linesMesa.length; i++) {
             const fields = linesMesa[i].split(';');
             const id_mesa = fields[0];
-            const departamneto = fields[1];
+            const departamento = fields[1];
             // Insertar los datos en la tabla temporal
-            await db.querywithoutclose(connection, `INSERT INTO proyecto1.TEMP_MESA (id_mesa, departamneto) VALUES (?, ?)`, [id_mesa, departamneto]);
+            await db.querywithoutclose(connection, `INSERT INTO proyecto1.TEMP_MESA (id_mesa, departamento) VALUES (?, ?)`, [id_mesa, departamento]);
         }
          await db.querywithoutclose(connection, `SELECT * FROM proyecto1.TEMP_MESA`, []);
          // pasa los datos temp a la real
-         await db.querywithoutclose(connection, `INSERT INTO proyecto1.MESA (id_mesa, departamneto) SELECT id_mesa, departamneto FROM proyecto1.TEMP_MESA`, []);
+         await db.querywithoutclose(connection, `INSERT INTO proyecto1.MESA (id_mesa, departamento) SELECT id_mesa, departamento FROM proyecto1.TEMP_MESA`, []);
 
 
           //DATOS CIUDADANO

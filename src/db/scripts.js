@@ -46,9 +46,9 @@ CREATE TABLE IF NOT EXISTS proyecto1.DEPARTAMENTO (
 
 CREATE TABLE IF NOT EXISTS proyecto1.MESA (
   id_mesa INTEGER NOT NULL,
-  departamneto INTEGER NOT NULL,
+  departamento INTEGER NOT NULL,
   PRIMARY KEY (id_mesa),
-  FOREIGN KEY (departamneto) REFERENCES proyecto1.DEPARTAMENTO (id_departamento)
+  FOREIGN KEY (departamento) REFERENCES proyecto1.DEPARTAMENTO (id_departamento)
   );
 
 
@@ -132,7 +132,7 @@ CREATE TEMPORARY TABLE IF NOT EXISTS proyecto1.TEMP_DEPARTAMENTO (
 
 CREATE TEMPORARY TABLE IF NOT EXISTS proyecto1.TEMP_MESA (
   id_mesa INTEGER NOT NULL,
-  departamneto INTEGER NOT NULL
+  departamento INTEGER NOT NULL
   );
 
 
